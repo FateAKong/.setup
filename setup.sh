@@ -34,7 +34,7 @@ cd $HOME
 if [ -d ./.dotfiles/ ]; then
     mv .dotfiles .dotfiles.old
 fi
-git clone https://github.com/fateakong/.dotfiles.git
+git clone git@github.com:FateAKong/.dotfiles.git
 ln -sb .dotfiles/.bash_profile .
 ln -sb .dotfiles/.bashrc .
 ln -sb .dotfiles/.bashrc_custom .
